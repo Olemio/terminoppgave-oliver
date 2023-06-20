@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Manual</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/bvs2iuv.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div id="nav_bar">
+            <!-- logo -->
+            <a href="Index.html"><img class="logo" src="Bilder/LOGO/dm_kube_hansen_lightblue.svg" alt=""></a>
+            <!-- navigation menu -->
+            <div class="nav">
+                <ul class="nav_links">
+                    <a href="Index.html"> Home</a>
+                    <a href="about.html">About</a>
+                    <a href="term_paper.html">Term paper</a>
+                    <a class="active" href="designmanual.html">Design manual</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="interests.html">Interests</a>
+                </ul>
+            </div>
+            <!-- burger -->
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="Index.html">Homepage</a>
+                    <a href="about.html">About</a>
+                    <a href="term_paper.html">Term paper</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="interests.html">interests</a>
+                </div>
+            </div>
+            <span class="burger" onclick="openNav()">&#9776; </span>
+        </div>
+        <!-- overskrift -->
+        <h1 class="welcome">Designmanual til Logo</h1>
+    </div>
+    <!-- DESIGNMANUAL -->
+    <div class="sections">
+        <img class="Logo" src="Bilder/LOGO/dm_kube.svg" alt="">
+        <!-- størrelser -->
+        <div class="size">
+            <img src="Bilder/LOGO/dm_kube_size.svg" alt="">
+            <img src="Bilder/LOGO/blackwhite_kube_size.svg" alt="">
+        </div>
+        <!-- coloer -->
+        <div class="colorpallette">
+            <h1 class="colors">colors</h1>
+            <div class="palette">
+                <div class="column">
+                    <div class="box">
+                        <div class="lightblue"></div>
+                        <p class="hexrgbcmyk">HEX: #D4E5F2<br> RGB: 212, 229, 242<br> CMYK: 15, 4, 1, 0</p>
+                    </div>
+                    <div class="box">
+                        <div class="darkgreen"></div>
+                        <p class="hexrgbcmyk">HEX: #1a3d40<br> RGB: 26, 61, 64<br> CMYK: 87, 59, 59, 49</p>
+                    </div>
+                    <div class="box">
+                        <div class="black"></div>
+                        <p class="hexrgbcmyk">HEX: #000000<br> RGB: 0, 0, 0<br> CMYK: 75, 68, 67, 90</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <div class="blue"></div>
+                        <p class="hexrgbcmyk">HEX: #3F8CB7<br> RGB: 63, 140, 183<br> CMYK: 75, 35, 14, 0</p>
+                    </div>
+                    <div class="box">
+                        <div class="deepblue"></div>
+                        <p class="hexrgbcmyk">HEX: #295A75<br> RGB: 41, 90, 117<br> CMYK: 88 , 59, 37, 17</p>
+                    </div>
+                    <div class="box">
+                        <div class="darkblue"></div>
+                        <p class="hexrgbcmyk">HEX: #122b37<br> RGB: 18, 43, 55<br> CMYK: 90, 70, 54, 58</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- logoversjoner -->
+        <div class="holder">
+            <p class="lighttxt">Used on dark backgrounds with more than 75% gray</p>
+            <div class="img">
+                <img src="Bilder/LOGO/dm_kube_hansen_lightblue_A.svg" alt="">
+                <img src="Bilder/LOGO/dm_kube_hansen_lightblue.svg" alt="">
+            </div>
+        </div>
+        <div class="holder2">
+            <p class="darkgreentxt">Used on dark backgrounds with less than 75% gray</p>
+            <div class="img">
+                <img src="Bilder/LOGO/dm_kube_hansen_darkgreen_A.svg" alt="">
+                <img src="Bilder/LOGO/dm_kube_hansen_darkgreen.svg" alt="">
+            </div>
+        </div>
+        <div class="holder3">
+            <p class="blacktxt">Used on dark backgrounds with less than 10% gray</p>
+            <div class="img">
+                <img src="Bilder/LOGO/dm_kube_hansen_black_borders_A_.svg" alt="">
+                <img src="Bilder/LOGO/dm_kube_hansen_black.svg" alt="">
+            </div>
+        </div>
+        <div class="fonttype">
+            <p class="ethnocentric">Headline font: <br> <br> ethnocentric</p>
+            <p class="good-times">Text font: <br> <br> good-times</p>
+        </div>
+        <br>
+         <p class="fonttype">background images on webpage cortsey pixabay</p>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <h1>Contact // info</h1>
+        <p>Mail // Olemio842@Gmail.com</p>
+        <p>Phone // 483 87 288</p>
+    </div>
+    <script src="js/burger.js"></script>
+</body>
+
+</html>

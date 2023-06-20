@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/bvs2iuv.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div id="nav_bar">
+            <!-- logo -->
+            <a href="Index.html"><img class="logo" src="Bilder/LOGO/dm_kube_hansen_lightblue.svg" alt=""></a>
+            <!-- navigation menu -->
+            <div class="nav">
+                <ul class="nav_links">
+                    <a href="Index.html"> Home</a>
+                    <a href="about.html">About</a>
+                    <a href="term_paper.html">Term paper</a>
+                    <a href="designmanual.html">Design manual</a>
+                    <a class="active" href="portfolio.html">Portfolio</a>
+                    <a href="interests.html">Interests</a>
+                </ul>
+            </div>
+            <!-- burger -->
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="Index.html">Homepage</a>
+                    <a href="about.html">About</a>
+                    <a href="term_paper.html">Term paper</a>
+                    <a href="designmanual.html">Design manual</a>
+                    <a href="interests.html">interests</a>
+                </div>
+            </div>
+            <span class="burger" onclick="openNav()">&#9776; </span>
+        </div>
+        <h1 class="welcome">PORTFOLIO</h1>
+    </div>
+
+    <div class="sections">
+        <h1>My first website</h1>
+        <a target="_blank" href="Oppdrag_1/index.html"><img class="oppdrag"
+                src="Bilder/portfolio/lacrosse_background.png" alt=""></a>
+        <h1>Kniv tatto logo and designmanual</h1>
+        <embed class="oppdrag" src="portfolio/designmanual_knivtattoo.pdf" type="application/pdf" width="100%" height="600px">
+        <h1>average calculator</h1>
+        <a target="_blank" href="Oliver_kalkulator/index.html"><img class="oppdrag"
+                src="Bilder/portfolio/kalkulator_background.png" alt=""></a>
+        <h1>Stop motion rubiks kube</h1>
+        <video class="oppdrag" src="Bilder/portfolio/stopmotion_30fps.mp4" autoplay controls></video>
+        <h1>Image galery</h1>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="Bilder/gallery/leo_blaavegg_busk_gal.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="Bilder/gallery/leo_graavegg_gal.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="Bilder/gallery/oliver_blaavegg_gal.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="Bilder/gallery/trapp_vinger_gal.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="Bilder/gallery/oliver_grafitti_gal.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="Bilder/gallery/leo_gulvegg_gal.jpg" alt=""></div>
+
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+        <p>Oliver Mio Leander Bing-Hansen + Leo Solbakken Longva</p>
+    </div>
+
+
+
+
+    <!-- footer -->
+    <div class="footer">
+        <h1>Contact // info</h1>
+        <p>Mail // Olemio842@Gmail.com</p>
+        <p>Phone // 483 87 288</p>
+    </div>
+    <script src="js/burger.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+
+
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>

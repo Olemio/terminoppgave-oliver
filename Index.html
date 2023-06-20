@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/bvs2iuv.css">
+</head>
+<!-- HUSK Å LAGE BÅDE NORSK OG ENGELSK SIDE!!!! -->
+
+<body>
+    <!-- header -->
+    <div class="background">
+        <div class="header">
+            <div id="nav_bar">
+                <!-- logo -->
+                <a href="Index.html"><img class="logo" src="Bilder/LOGO/dm_kube_hansen_lightblue.svg" alt=""></a>
+                <!-- navigation menu -->
+                <div class="nav">
+                    <ul class="nav_links">
+                        <a class="active" href="Index.html"> Home</a>
+                        <a href="about.html">About</a>
+                        <a href="term_paper.html">Term paper</a>
+                        <a href="designmanual.html">Design manual</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="interests.html">Interests</a>
+                    </ul>
+                </div>
+                <!-- burger -->
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a href="about.html">About</a>
+                        <a href="term_paper.html">Term paper</a>
+                        <a href="designmanual.html">Design manual</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="interests.html">interests</a>
+                    </div>
+                </div>
+                <span class="burger" onclick="openNav()">&#9776; </span>
+            </div>
+            <h1 class="welcome">Oliver // Hansen</h1>
+        </div>
+        <!-- purpose -->
+        <div class="gray-section">
+            <h1>Welcome to my website!</h1>
+            <p>I have made this website to both learn coding, and show you what i know</p>
+        </div>
+    </div>
+    <!-- pages -->
+    <div class="sections">
+        <a href="about.html" class="page">
+            <p>ABOUT</p>
+        </a>
+        <a href="term_paper.html" class="page2">
+            <p>TERM PAPER</p>
+        </a>
+        <a href="designmanual.html" class="page3">
+            <p>DESIGN MANUAL</p>
+        </a>
+        <a href="portfolio.html" class="page4">
+            <p>PORTFOLIO</p>
+        </a>
+        <a href="interests.html" class="page5">
+            <p>INTERESTS</p>
+        </a>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <h1>Contact // info</h1>
+        <p>Mail // Olemio842@Gmail.com</p>
+        <p>Phone // 483 87 288</p>
+    </div>
+    <script src="js/burger.js"></script>
+</body>
+
+</html>
